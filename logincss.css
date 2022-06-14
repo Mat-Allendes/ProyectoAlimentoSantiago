@@ -1,0 +1,56 @@
+.container-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#formulario{
+    padding: 10px;
+    width: 600px;
+    border-radius: 10px;
+}
+#registrarUser{
+    display: flex;
+    justify-content: center;
+}
+.button-container{
+    display: grid;
+    place-items: center;
+}
+.input-container{
+    display: grid;
+    place-items: center;
+}
+.label-container{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.inputs{
+    padding: 8px;
+    width: 280px;
+    text-align: center;
+}
+#titulo-form{
+    font-size: 30px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    place-items: center;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+#chocman{
+    width: 300px;
+    float:right;
+}
+#chocman2{
+    width: 300px;
+}
